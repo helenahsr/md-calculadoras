@@ -201,7 +201,7 @@ export default function CalculadoraConversao() {
                 </div>
 
                 <div className="calc-passos">
-                  <h3 className="calc-passos-titulo">📝 Passo a Passo</h3>
+                  <h3 className="calc-passos-titulo">Passo a Passo</h3>
                   <div className="calc-passos-lista">
                     {resultadoConversao.passos.map((passo, index) => (
                       <div key={index} className="calc-passo">
